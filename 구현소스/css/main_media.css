@@ -1,0 +1,98 @@
+/* 메인 비주얼 페이지 미디어쿼리 CSS - main_media.css */
+
+@media screen and (max-width: 800px) {
+
+  /********************************* 메인 페이지 영역 *********************************/
+  .main-wrap{
+    overflow-x: hidden;
+  }
+  .main-visual-page {
+    height: 80vh;
+  }
+  .main-img {
+    translate: -15% -20%;
+    mask-image: radial-gradient(ellipse 90% 59% at 63% 21%, black 80%, transparent 100%);
+  }
+  /* 로고 등장 애니메이션 */
+  @keyframes up-logo-img-ani {
+    to {
+      /* top: 11%; */
+      left: 8%;
+      opacity: 1;
+    }
+  }
+  
+  .up-logo {
+    width: 25%;
+    left: 20%;
+  }
+  
+  .main-text {
+    font-size: 6vw;
+    left: 20%;
+  }
+  /* 텍스트 등장 애니메이션 */
+  @keyframes up-text-ani {
+    to {
+      top: 55%;
+      left: 4%;
+      opacity: 1;
+    }
+  }
+  
+  /********************************* 영화 설명 영역 *********************************/
+  
+  .intro-text-box {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+  }
+  .intro-text-box h2 {
+      font-size: 4vw;
+  }
+  
+  .intro-text-box p {
+      padding: 10vw 12vw;
+  }
+  
+  /********************************* 캐릭터 디자인 영역 *********************************/
+    .character-card-area {
+      padding-left: 23vw;
+      height: 800vh;
+    }
+    .card {
+      width: 50vw;
+      /* top: 5vh; */
+    }
+  
+    .card h3 {
+      font-size: 2vw;
+    }
+  
+    .card p{
+      font-size: 4vw;
+    }
+  
+    /* 첫번째 카드 */
+    .card:nth-child(1) {
+      top: 5vh;
+    }
+  
+    /* 두번째 카드 */
+    .card:nth-child(2) {
+      margin-top: 80vh;
+      top: 15vh;
+    }
+  
+    /* 세번째 카드 */
+    .card:nth-child(3) {
+      margin-top: 150vh;
+      top: 25vh;
+    }
+  
+    /* 네번째 카드 */
+    .card:nth-child(4) {
+      margin-top: 200vh;
+      top: 35vh;
+    }
+  }
+  

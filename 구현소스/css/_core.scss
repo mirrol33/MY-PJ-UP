@@ -1,0 +1,44 @@
+/* _core.scss */
+$breakpoint-desktop: 1600px;
+$breakpoint-tablet-large: 1400px;
+$breakpoint-tablet-medium: 1200px;
+$breakpoint-tablet-small: 768px;
+$breakpoint-mobile: 420px;
+
+@mixin desktop {
+  @media (max-width: $breakpoint-desktop) {
+    @content;
+  }
+}
+@mixin tablet-large {
+  @media (max-width: $breakpoint-tablet-large) {
+    @content;
+  }
+}
+@mixin tablet-medium {
+  @media (max-width: $breakpoint-tablet-medium) {
+    @content;
+  }
+}
+@mixin tablet-small {
+  @media (max-width: $breakpoint-tablet-small) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: $breakpoint-mobile) {
+    @content;
+  }
+}
+
+/* 
+모바일 버전에서 호버효과 없애기
+디바이스 pointer로 hover가 가능한 경우에만 스타일을 적용
+반대로는 @media (hover: none) {} 
+*/
+
+@mixin nonehover {
+  @media (hover: hover) {
+  }
+}
