@@ -677,7 +677,7 @@ footer .footer p {
   margin: 0 auto;
   width: 96%;
   max-width: 1400px;
-  height: 240vh;
+  height: 280vw;
 }
 @media (max-width: 768px) {
   .main-wrap .section03 .card-box ul {
