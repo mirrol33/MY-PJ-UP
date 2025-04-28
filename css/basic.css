@@ -651,14 +651,14 @@ footer .footer p {
 }
 .main-wrap .section02 .text-box {
   margin: 0 auto;
-  padding: 16vh 0 20vh 0;
+  padding: 10vw 0 20vw 0;
   width: 100%;
   max-width: 1200px;
 }
 @media (max-width: 768px) {
   .main-wrap .section02 .text-box {
     width: 90%;
-    padding: 10vh 0;
+    padding: 24vw 0 20vw 0;
   }
 }
 .main-wrap .section02 .text-box h2 {
@@ -677,13 +677,13 @@ footer .footer p {
   margin: 0 auto;
   width: 100%;
   max-width: 1400px;
-  height: 240vw;
+  height: 280vh;
 }
 @media (max-width: 768px) {
   .main-wrap .section03 .card-box ul {
     width: 90%;
     height: auto;
-    padding: 4vh 0;
+    padding: 4vw 0;
   }
 }
 .main-wrap .section03 .card-box ul li {
