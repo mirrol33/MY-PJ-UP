@@ -2,7 +2,12 @@
 const mainComp = {
   template: `
     <div class="main-wrap">
-    <section class="section01"></section>
+    <section class="section01">
+        <div class="section-border" style="clip-path: url(#section-divider-66451522b25877729d78861b);">
+        <img src="../images/main/main.jpg" alt="">
+        </div>
+        <div class="white-up"><img src="../images/main/white_up.png" alt="white up logo"></div>
+    </section>
     <section class="section02">
     <div class="text-box">
     <h2>A Dream Of Adventure</h2>
@@ -29,6 +34,11 @@ const mainComp = {
             </ul>
         </div>
     </section>
+    <svg class="section-divider-svg-clip">
+    <clipPath id="section-divider-66451522b25877729d78861b" clipPathUnits="objectBoundingBox">
+      <path class="section-divider-clip" d="M-1.0044999999999997, 0.9339999999999999 L-1.0044999999999997, 0.9339999999999999 l0,0 c0,0 0.25075,0.066 0.5015,0.066 s0.5015,-0.066 0.5015,-0.066 l0,0l0,0 c0,0 0.25075,0.066 0.5015,0.066 s0.5015,-0.066 0.5015,-0.066 l0,0l0,0 c0,0 0.25075,0.066 0.5015,0.066 s0.5015,-0.066 0.5015,-0.066 l0,0 L1, -1 L0, -1 z"></path>
+    </clipPath>
+  </svg>
     </div>
     `,
     methods: {
