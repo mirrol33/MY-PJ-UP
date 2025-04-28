@@ -4,9 +4,9 @@ const mainComp = {
     <div class="main-wrap">
     <section class="section01">
         <div class="section-border" style="clip-path: url(#section-divider-66451522b25877729d78861b);">
-        <img src="./images/main/main.jpg" alt="">
+        <img src="images/main/main.jpg" alt="main img">
         </div>
-        <div class="white-up"><img src="./images/main/white_up.png" alt="white up logo"></div>
+        <div class="white-up"><img src="images/main/white_up.png" alt="white up logo"></div>
     </section>
     <section class="section02">
     <div class="text-box">
