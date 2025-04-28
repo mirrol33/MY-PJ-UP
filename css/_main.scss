@@ -1,6 +1,6 @@
 .main-wrap {
   width: 100%;
-  background: url(/images/main/main.jpg) center top 100% / cover;
+  background: url(./images/main/main.jpg) center top 100% / cover;
   background-attachment: fixed;
   section {
     position: relative;
@@ -9,7 +9,7 @@
     text-align: center;
   }
   .section01 {
-    min-height: 80vh;
+    min-height: 60vh;
   }
   .section02 {
     background: #fff;

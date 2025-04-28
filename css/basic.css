@@ -597,7 +597,7 @@ footer .footer p {
 
 .main-wrap {
   width: 100%;
-  background: url(/images/main/main.jpg) center top 100%/cover;
+  background: url(./images/main/main.jpg) center top 100%/cover;
   background-attachment: fixed;
 }
 .main-wrap section {
@@ -607,7 +607,7 @@ footer .footer p {
   text-align: center;
 }
 .main-wrap .section01 {
-  min-height: 80vh;
+  min-height: 60vh;
 }
 .main-wrap .section02 {
   background: #fff;
