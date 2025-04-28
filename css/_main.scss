@@ -1,6 +1,6 @@
 .main-wrap {
   width: 100%;
-  background: url(./images/main/main.jpg) center top 100% / cover;
+  background: url(../images/main/main.jpg) center top 100% / cover;
   background-attachment: fixed;
   section {
     position: relative;
@@ -15,7 +15,7 @@
     background: #fff;
     .text-box {
       margin: 0 auto;
-      padding: 20vh 0;
+      padding: 16vh 0;
       width: 96%;
       max-width: 1200px;
       @include tablet-small {
