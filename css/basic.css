@@ -597,6 +597,7 @@ footer .footer p {
 
 .main-wrap {
   width: 100%;
+  color: var(--color-font-main);
 }
 .main-wrap .section-divider-svg-clip {
   position: absolute;
@@ -650,7 +651,7 @@ footer .footer p {
 }
 .main-wrap .section02 .text-box {
   margin: 0 auto;
-  padding: 20vh 0;
+  padding: 18vh 0;
   width: 96%;
   max-width: 1200px;
 }
