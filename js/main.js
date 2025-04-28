@@ -14,16 +14,16 @@ const mainComp = {
     <section class="section03">
         <div class="card-box">
             <ul>
-                <li>
+                <li @click="goPage">
                     <em>Carl Fredricksen</em>
                 </li>
-                <li>
+                <li @click="goPage">
                     <em>Russell</em>
                 </li>
-                <li>
+                <li @click="goPage">
                     <em>Dug</em>
                 </li>
-                <li>
+                <li @click="goPage">
                     <em>Charles Muntz</em>
                 </li>
             </ul>
@@ -31,6 +31,11 @@ const mainComp = {
     </section>
     </div>
     `,
+    methods: {
+        goPage(){
+            location.href = "./about.html";
+        }
+    },
 };
 
 export default mainComp;
