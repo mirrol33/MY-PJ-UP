@@ -28,7 +28,10 @@ header {
       }
     }
   }
-  .header-menu {    
+  .header-menu {
+    position: absolute;
+    left: 50%;
+    translate: -50% 0;
     @include tablet-small {
       display: none;
     }
