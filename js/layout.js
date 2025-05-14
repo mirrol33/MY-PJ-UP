@@ -203,7 +203,7 @@ const footerComp = {
   template: `
     <div class="footer">
     <p>@2025 All Rights Reserved.</p>
-    <p>Created by UP TEAM</p>
+    <p>Created by LMK</p>
     </div>
   `,
 };
